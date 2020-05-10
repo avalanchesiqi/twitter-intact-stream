@@ -1,0 +1,6 @@
+{"key0": {"app_name": "your_app_name",
+          "access_token": "your_access_token",
+          "access_secret": "your_access_secret",
+          "consumer_key": "your_consumer_key",
+          "consumer_secret": "your_consumer_secret"}
+}
