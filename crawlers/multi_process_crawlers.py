@@ -63,7 +63,7 @@ if __name__ == '__main__':
     os.makedirs('../log', exist_ok=True)
     logging.basicConfig(filename='../log/{0}_crawl.log'.format(app_name), filemode='w', format='%(asctime)s - %(message)s', level=logging.WARNING)
 
-    output_dir = '../data/{0}'.format(app_name)
+    output_dir = '/data1/{0}'.format(app_name)
     os.makedirs(output_dir, exist_ok=True)
 
     processes = []
